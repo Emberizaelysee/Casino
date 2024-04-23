@@ -1,0 +1,48 @@
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.nav-item {
+  padding-top: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.log {
+  border: solid 1px !important;
+  border-color: rgba(0, 0, 0, 0.457) !important;
+  border-radius: 50px;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+.sign {
+  border: solid 1px;
+  border-color: rgba(0, 0, 0, 0.457) !important;
+  border-radius: 50px;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+.carouselText {
+  text-shadow: 2px 2px rgba(215, 215, 215, 0.396);
+}
+.carouselP {
+  text-shadow: 1px 1px rgba(215, 215, 215, 0.396);
+}
+
+#sticky {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  position: sticky;
+  bottom: 0;
+  text-align: center;
+}
+#stickyArrow {
+  margin: 0;
+  padding: 0px 1px 0px 0px;
+}
+
+#footerlink:hover {
+  background-color: rgba(25, 25, 25, 0.705);
+}
