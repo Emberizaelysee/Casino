@@ -1,0 +1,8 @@
+{
+    "name": "My Development Environment",
+    "dockerFile": "Dockerfile",
+    "extensions": ["dbaeumer.vscode-eslint"],
+    "forwardPorts": [80, 3306],
+    "postCreateCommand": "service apache2 start && service mysql start"
+  }
+  
