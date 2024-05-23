@@ -36,12 +36,16 @@
     />
   </head>
   <body>
-    <section style="background-color: #f50a25 !important">
-      <nav class="rye-regular" style="margin: 0 32px; padding: 8px 0">
+    <header>
+      <nav
+        class="rye-regular"
+        style="padding: 8px 0; background-color: #f50a25 !important"
+      >
         <div class="d-md-flex d-sm-block">
           <div
             class="container-fluid"
             style="
+              margin: 0 32px;
               justify-content: space-around;
               align-items: center;
               flex-wrap: nowrap;
@@ -67,14 +71,12 @@
             </a>
           </div>
 
-          <div class="d-md-flex d-sm-block justify-content-center">
+          <div
+            class="d-md-flex d-sm-block justify-content-center flex-column flex-md-row"
+          >
             <ul
-              class="nav nav-pills"
-              style="
-                justify-content: space-around;
-                align-items: center;
-                flex-wrap: nowrap;
-              "
+              class="nav nav-pills flex-column flex-md-row flex-wrap flex-md-nowrap"
+              style="justify-content: space-around; align-items: center"
             >
               <li class="nav-item">
                 <a
@@ -181,7 +183,7 @@
           </div>
         </div>
       </nav>
-    </section>
+    </header>
     <section>
       <div class="container rye-regular">
         <h1 class="display-4 mt-5">Your Profile</h1>

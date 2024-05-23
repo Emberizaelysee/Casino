@@ -1,0 +1,634 @@
+<div id="Games" class="container rye-regular">
+          <div class="mt-5">
+            <h1
+              class="display-4"
+              style="color: color-mix(in srgb, #ffd700 50%, #f50a25 50%)"
+            >
+              Available Games
+            </h1>
+            <p class="lead" style="color: #ffd700">
+              Explore our exciting selection of games below:
+            </p>
+
+            <div class="row">
+              <div class="col-md-4 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <img
+                      src="./assets/img/games/Slots.jpg"
+                      alt=""
+                      class="GamesImg"
+                    />
+                    <div style="justify-content: center; align-items: center">
+                      <h5 class="card-title"><br />Slots</h5>
+                      <p class="card-text">
+                        Spin the reels and try your luck on our slot machines.
+                      </p>
+
+                      <!-- Button to trigger first modal -->
+                      <button
+                        type="button"
+                        class="btn btn-primary card-btn"
+                        data-bs-toggle="modal"
+                        data-bs-target="#GameModal1"
+                      >
+                        Learn More
+                      </button>
+
+                      <!-- First Modal -->
+                      <div
+                        class="modal fade"
+                        id="GameModal1"
+                        tabindex="-1"
+                        aria-labelledby="GameModalLabel1"
+                        aria-hidden="true"
+                      >
+                        <!-- Modal dialog -->
+                        <div class="modal-dialog modal-dialog-centered">
+                          <!-- Modal content -->
+                          <div class="modal-content">
+                            <!-- Modal header -->
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="GameModalLabel1">
+                                Slots
+                              </h5>
+                              <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                              ></button>
+                            </div>
+                            <!-- Modal body -->
+                            <div class="modal-body" id="GamemodalBody1">
+                              Lorem ipsum dolor, sit amet consectetur
+                              adipisicing elit. Velit, ipsa repellendus earum
+                              soluta vero non at aperiam nisi enim nihil sunt
+                              consequuntur? Veniam, nisi repellat quis porro
+                              perspiciatis ratione voluptate.
+                            </div>
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary">
+                                Book Now !
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <img
+                      src="./assets/img/games/American Roulette.png"
+                      alt="American Roulette"
+                      class="GamesImg"
+                    />
+                    <h5 class="card-title">
+                      <br />
+                      American Roulette
+                    </h5>
+                    <p class="card-text">
+                      Take a seat at the roulette table and place your bets.
+                    </p>
+                    <!-- Button to trigger second modal -->
+                    <button
+                      type="button"
+                      class="btn btn-primary card-btn"
+                      data-bs-toggle="modal"
+                      data-bs-target="#GameModal2"
+                    >
+                      Learn More
+                    </button>
+
+                    <!-- 2 Modal -->
+                    <div
+                      class="modal fade"
+                      id="GameModal2"
+                      tabindex="-1"
+                      aria-labelledby="GameModalLabel2"
+                      aria-hidden="true"
+                    >
+                      <!-- Modal dialog -->
+                      <div class="modal-dialog modal-dialog-centered">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                          <!-- Modal header -->
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="GameModalLabel2">
+                              American Roulette
+                            </h5>
+                            <button
+                              type="button"
+                              class="btn-close"
+                              data-bs-dismiss="modal"
+                              aria-label="Close"
+                            ></button>
+                          </div>
+                          <!-- Modal body -->
+                          <div class="modal-body" id="GamemodalBody2">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Velit perspiciatis, vero possimus mollitia
+                            similique eos ea? Commodi officiis, a, repellendus
+                            ea aperiam odio dolorum soluta quas voluptatum qui
+                            sint quos!
+                          </div>
+                          <!-- Modal footer -->
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary">
+                              Book Now !
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <img
+                      src="./assets/img/games/Blackjack.png"
+                      alt="Blackjack"
+                      class="GamesImg"
+                    />
+                    <h5 class="card-title"><br />Blackjack</h5>
+                    <p class="card-text">
+                      Test your skills in the classic game of blackjack.
+                    </p>
+                    <!-- Button to trigger 3 modal -->
+                    <button
+                      type="button"
+                      class="btn btn-primary card-btn"
+                      data-bs-toggle="modal"
+                      data-bs-target="#GameModal3"
+                    >
+                      Learn More
+                    </button>
+
+                    <!-- 3 Modal -->
+                    <div
+                      class="modal fade"
+                      id="GameModal3"
+                      tabindex="-1"
+                      aria-labelledby="GameModalLabel3"
+                      aria-hidden="true"
+                    >
+                      <!-- Modal dialog -->
+                      <div class="modal-dialog modal-dialog-centered">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                          <!-- Modal header -->
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="GameModalLabel3">
+                              Blackjack
+                            </h5>
+                            <button
+                              type="button"
+                              class="btn-close"
+                              data-bs-dismiss="modal"
+                              aria-label="Close"
+                            ></button>
+                          </div>
+                          <!-- Modal body -->
+                          <div class="modal-body" id="GamemodalBody3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Sed sunt laudantium illo facere numquam quo ea
+                            incidunt velit temporibus harum. Amet eum laudantium
+                            corrupti quasi illo. Harum accusamus illo nemo?
+                          </div>
+                          <!-- Modal footer -->
+                          <div class="modal-footer">
+                            <button
+                              type="button"
+                              class="btn btn-secondary"
+                              data-bs-dismiss="modal"
+                            >
+                              Book Now !
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <img
+                      src="./assets/img/games/Texas Holdem.png"
+                      alt="Texas Holdem"
+                      class="GamesImg"
+                    />
+                    <h5 class="card-title"><br />Texas Holdem</h5>
+                    <p class="card-text">
+                      Spin the reels and try your luck on our slot machines.
+                    </p>
+                    <!-- Button to trigger 4 modal -->
+                    <button
+                      type="button"
+                      class="btn btn-primary card-btn"
+                      data-bs-toggle="modal"
+                      data-bs-target="#GameModal4"
+                    >
+                      Learn More
+                    </button>
+
+                    <!-- 4 Modal -->
+                    <div
+                      class="modal fade"
+                      id="GameModal4"
+                      tabindex="-1"
+                      aria-labelledby="GameModalLabel4"
+                      aria-hidden="true"
+                    >
+                      <!-- Modal dialog -->
+                      <div class="modal-dialog modal-dialog-centered">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                          <!-- Modal header -->
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="GameModalLabel4">
+                              Texas Holdem
+                            </h5>
+                            <button
+                              type="button"
+                              class="btn-close"
+                              data-bs-dismiss="modal"
+                              aria-label="Close"
+                            ></button>
+                          </div>
+                          <!-- Modal body -->
+                          <div class="modal-body" id="GamemodalBody4">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Nam, distinctio repellat. Minima facere ipsa
+                            nisi placeat corporis iure voluptatem atque mollitia
+                            accusamus aut cum reiciendis molestiae ratione,
+                            rerum fuga hic?
+                          </div>
+                          <!-- Modal footer -->
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary">
+                              Book Now!
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <img
+                      src="./assets/img/games/Midi Punto Banco.png"
+                      alt="Punto Banco"
+                      class="GamesImg"
+                    />
+                    <h5 class="card-title"><br />Midi Punto Banco</h5>
+                    <p class="card-text">
+                      Take a seat at the roulette table and place your bets.
+                    </p>
+                    <!-- Button to trigger 5 modal -->
+                    <button
+                      type="button"
+                      class="btn btn-primary card-btn"
+                      data-bs-toggle="modal"
+                      data-bs-target="#GameModal5"
+                    >
+                      Learn More
+                    </button>
+
+                    <!-- 5 Modal -->
+                    <div
+                      class="modal fade"
+                      id="GameModal5"
+                      tabindex="-1"
+                      aria-labelledby="GameModalLabel5"
+                      aria-hidden="true"
+                    >
+                      <!-- Modal dialog -->
+                      <div class="modal-dialog modal-dialog-centered">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                          <!-- Modal header -->
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="GameModalLabel5">
+                              Midi Punto Banco
+                            </h5>
+                            <button
+                              type="button"
+                              class="btn-close"
+                              data-bs-dismiss="modal"
+                              aria-label="Close"
+                            ></button>
+                          </div>
+                          <!-- Modal body -->
+                          <div class="modal-body" id="GamemodalBody5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Officia odit, ea, quis, eius numquam expedita
+                            sequi delectus tempora ipsa corporis exercitationem
+                            sit eligendi laudantium nesciunt possimus blanditiis
+                            pariatur tenetur. Magni.
+                          </div>
+                          <!-- Modal footer -->
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary">
+                              Book Now !
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <img
+                      src="./assets/img/games/Midi Punto Banco.png"
+                      alt="Heads Up Hold'em"
+                      class="GamesImg"
+                    />
+                    <h5 class="card-title"><br />Heads Up Hold'em</h5>
+                    <p class="card-text">
+                      Test your skills in the classic game of blackjack.
+                    </p>
+                    <!-- Button to trigger 6 modal -->
+                    <button
+                      type="button"
+                      class="btn btn-primary card-btn"
+                      data-bs-toggle="modal"
+                      data-bs-target="#GameModal6"
+                    >
+                      Learn More
+                    </button>
+
+                    <!-- 6 Modal -->
+                    <div
+                      class="modal fade"
+                      id="GameModal6"
+                      tabindex="-1"
+                      aria-labelledby="GameModalLabel6"
+                      aria-hidden="true"
+                    >
+                      <!-- Modal dialog -->
+                      <div class="modal-dialog modal-dialog-centered">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                          <!-- Modal header -->
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="GameModalLabel6">
+                              Heads Up Hold'em
+                            </h5>
+                            <button
+                              type="button"
+                              class="btn-close"
+                              data-bs-dismiss="modal"
+                              aria-label="Close"
+                            ></button>
+                          </div>
+                          <!-- Modal body -->
+                          <div class="modal-body" id="GamemodalBody6">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Obcaecati nulla quas tempore doloremque
+                            voluptatem, tenetur praesentium laboriosam fugiat
+                            culpa, natus architecto consectetur rem eius
+                            corrupti, beatae ipsum nemo ipsa voluptates.
+                          </div>
+                          <!-- Modal footer -->
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary">
+                              Book Now!
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+         <div class="col-md-4 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <img
+                      src="./assets/img/diners/salle1.jpg"
+                      alt="Salle"
+                      class="RestaurantsImg"
+                    />
+                    <div style="justify-content: center; align-items: center">
+                      <h5 class="card-title"><br />Salle</h5>
+                      <p class="card-text">
+                        Spin the reels and try your luck on our slot machines.
+                      </p>
+                      <!-- Button to trigger first modal -->
+                      <button
+                        type="button"
+                        class="btn btn-primary card-btn"
+                        data-bs-toggle="modal"
+                        data-bs-target="#RestoModal1"
+                      >
+                        Learn More
+                      </button>
+
+                      <!-- First Modal -->
+                      <div
+                        class="modal fade"
+                        id="RestoModal1"
+                        tabindex="-1"
+                        aria-labelledby="RestoModalLabel1"
+                        aria-hidden="true"
+                      >
+                        <!-- Modal dialog -->
+                        <div class="modal-dialog modal-dialog-centered">
+                          <!-- Modal content -->
+                          <div class="modal-content">
+                            <!-- Modal header -->
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="RestoModalLabel1">
+                                Salle
+                              </h5>
+                              <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                              ></button>
+                            </div>
+                            <!-- Modal body -->
+                            <div class="modal-body" id="RestomodalBody1">
+                              Lorem ipsum dolor, sit amet consectetur
+                              adipisicing elit. Velit, ipsa repellendus earum
+                              soluta vero non at aperiam nisi enim nihil sunt
+                              consequuntur? Veniam, nisi repellat quis porro
+                              perspiciatis ratione voluptate.
+                            </div>
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary">
+                                Book Now !
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <img
+                      src="./assets/img/diners/Bar1.png"
+                      alt="Bar"
+                      class="RestaurantsImg"
+                    />
+                    <h5 class="card-title">
+                      <br />
+                      Bar
+                    </h5>
+                    <p class="card-text">
+                      Take a seat at the roulette table and place your bets.
+                    </p>
+                    <!-- Button to trigger 2 modal -->
+                    <button
+                      type="button"
+                      class="btn btn-primary card-btn"
+                      data-bs-toggle="modal"
+                      data-bs-target="#RestoModal2"
+                    >
+                      Learn More
+                    </button>
+
+                    <!-- 2 Modal -->
+                    <div
+                      class="modal fade"
+                      id="RestoModal2"
+                      tabindex="-1"
+                      aria-labelledby="RestoModalLabel2"
+                      aria-hidden="true"
+                    >
+                      <!-- Modal dialog -->
+                      <div class="modal-dialog modal-dialog-centered">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                          <!-- Modal header -->
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="RestoModalLabel2">
+                              Bar
+                            </h5>
+                            <button
+                              type="button"
+                              class="btn-close"
+                              data-bs-dismiss="modal"
+                              aria-label="Close"
+                            ></button>
+                          </div>
+                          <!-- Modal body -->
+                          <div class="modal-body" id="RestomodalBody2">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Velit, ipsa repellendus earum soluta vero non
+                            at aperiam nisi enim nihil sunt consequuntur?
+                            Veniam, nisi repellat quis porro perspiciatis
+                            ratione voluptate.
+                          </div>
+                          <!-- Modal footer -->
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary">
+                              Book Now !
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <img
+                      src="./assets/img/diners/terrace.png"
+                      alt="Terrace"
+                      class="RestaurantsImg"
+                    />
+                    <h5 class="card-title"><br />Terrace</h5>
+                    <p class="card-text">
+                      Test your skills in the classic game of blackjack.
+                    </p>
+                    <!-- Button to trigger 3 modal -->
+                    <button
+                      type="button"
+                      class="btn btn-primary card-btn"
+                      data-bs-toggle="modal"
+                      data-bs-target="#RestoModal3"
+                    >
+                      Learn More
+                    </button>
+
+                    <!-- First Modal -->
+                    <div
+                      class="modal fade"
+                      id="RestoModal3"
+                      tabindex="-1"
+                      aria-labelledby="RestoModalLabel3"
+                      aria-hidden="true"
+                    >
+                      <!-- Modal dialog -->
+                      <div class="modal-dialog modal-dialog-centered">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                          <!-- Modal header -->
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="RestoModalLabel3">
+                              Terrace
+                            </h5>
+                            <button
+                              type="button"
+                              class="btn-close"
+                              data-bs-dismiss="modal"
+                              aria-label="Close"
+                            ></button>
+                          </div>
+                          <!-- Modal body -->
+                          <div class="modal-body" id="RestomodalBody3">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Velit, ipsa repellendus earum soluta vero non
+                            at aperiam nisi enim nihil sunt consequuntur?
+                            Veniam, nisi repellat quis porro perspiciatis
+                            ratione voluptate.
+                          </div>
+                          <!-- Modal footer -->
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary">
+                              Book Now !
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
