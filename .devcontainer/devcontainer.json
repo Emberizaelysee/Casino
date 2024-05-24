@@ -1,6 +1,6 @@
 {
   "name": "Web Application Development",
-  "dockerFile": "Dockerfile",
+  "dockerFile": ".devcontainer/Dockerfile",
   "forwardPorts": [80, 3306],
   "postCreateCommand": "service apache2 start && service mysql start",
   "customizations": {
@@ -12,4 +12,3 @@
     }
   }
 }
-
