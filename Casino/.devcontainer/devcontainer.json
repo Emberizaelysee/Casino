@@ -1,27 +1,28 @@
 {
-  "name": "Web Application Development",
-  "build": {
-      "dockerfile": "Dockerfile"
-  },
-  "forwardPorts": [80, 3306],
-  "postCreateCommand": "service apache2 start && service mysql start",
-  "customizations": {
+    "name": "Web Application Development",
+    "build": {
+      "dockerfile": ".devcontainer/Dockerfile"
+    },
+    "forwardPorts": [80, 3306],
+    "postCreateCommand": "service apache2 start && service mysql start",
+    "customizations": {
       "vscode": {
-          "extensions": [
-              "dbaeumer.vscode-eslint",
-              "ms-azuretools.vscode-docker",
-              "ms-python.python"
-          ],
-          "settings": {
-              "php.validate.enable": false,
-              "terminal.integrated.shell.linux": "/bin/bash"
-          }
+        "extensions": [
+          "dbaeumer.vscode-eslint",
+          "ms-azuretools.vscode-docker",
+          "ms-python.python"
+        ],
+        "settings": {
+          "php.validate.enable": false,
+          "terminal.integrated.shell.linux": "/bin/bash"
+        }
       }
-  },
-  "runArgs": [
+    },
+    "runArgs": [
       "--cap-add=SYS_PTRACE",
       "--security-opt",
       "seccomp=unconfined"
-  ],
-  "remoteUser": "vscode"
-}
+    ],
+    "remoteUser": "vscode"
+  }
+  
