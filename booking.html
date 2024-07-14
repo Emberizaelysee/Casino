@@ -17,38 +17,40 @@ background: radial-gradient(ellipse at center, #BC0101 0%, #910303 51%, #560000 
           <p class="card-text" align="center"> Book Your Ultimate Casino Experience Today!</p>
           <hr class=" border position-relative " style="width: 70%; align-self: center; margin: 0px;">
           <div class="card-body">
-            <form class="row g-3 mt-3 needs-validation" action="register.php" method="post" novalidate>
+
+
+            <form class="row g-3 mt-3 needs-validation" action="page2.php" method="post" novalidate>
               <div class="col-md-6">
                 <label for="enterfirstname" class="form-label">First name</label>
-                <input type="text" class="form-control rounded-pill" name="firstname" id="enterfirstname" value="" required>
+                <input type="text" class="form-control rounded-pill" name="firstname" id="firstname" value="" required>
                 <div class="invalid-feedback">
                   Enter First Name !
                 </div>
               </div>
               <div class="col-md-6">
                 <label for="enterlastname" class="form-label">Last name</label>
-                <input type="text" class="form-control rounded-pill" name="lastname" id="enterlastname" value="" required>
+                <input type="text" class="form-control rounded-pill" name="lastname" id="lastname" value="" required>
                 <div class="invalid-feedback">
                   Enter Last Name !
                 </div>
               </div>
               <label for="selectusername" class="form-label">Username</label>
               <div class="input-group has-validation">
-                <input type="text" class="form-control rounded-pill" name="username" id="selectusername" aria-describedby="inputGroupPrepend" required>
+                <input type="text" class="form-control rounded-pill" name="username" id="username" aria-describedby="inputGroupPrepend" required>
                 <div class="invalid-feedback">
                   Please Create a unique username.
                 </div>
               </div>
               <label for="enteremail" class="form-label">Email</label>
               <div class="input-group has-validation">
-                <input type="email" class="form-control rounded-pill" name="email" id="enteremail" aria-describedby="inputGroupPrepend" required>
+                <input type="email" class="form-control rounded-pill" name="email" id="email" aria-describedby="inputGroupPrepend" required>
                 <div class="invalid-feedback">
                   Please Enter Valid Email.
                 </div>
               </div>
               <label for="enterphone" class="form-label">Mobile Number</label>
               <div class="input-group has-validation">
-                <input type="numbers" class="form-control rounded-pill" name="mobile" id="enterphone" placeholder="Enter 10 digit" aria-describedby="inputGroupPrepend" required>
+                <input type="number" class="form-control rounded-pill" name="phone" id="phone" placeholder="Enter 10 digit" aria-describedby="inputGroupPrepend" required>
                 <div class="invalid-feedback">
                   Please Enter Your Contact Number.
                 </div>
@@ -56,22 +58,22 @@ background: radial-gradient(ellipse at center, #BC0101 0%, #910303 51%, #560000 
               
   <div class="col-md-6">
                 <label for="enterdateofbirth" class="form-label">Date of Birth</label>
-                <input type="date" class="form-control rounded-pill" name="dateofbirth" id="enterdob" value="" required>
+                <input type="date" class="form-control rounded-pill" name="dob" id="dob" value="" required>
                 <div class="invalid-feedback">
                   Enter Date of Birth !
                 </div>
               </div>
               
-              <div class="col-md-3">
+              <div class="col-md-6">
                 <label for="selectcity" class="form-label">City</label>
-                <input type="text" class="form-control rounded-pill" name="city" id="selectcity" required>
+                <input type="text" class="form-control rounded-pill" name="city" id="city" required>
                 <div class="invalid-feedback">
                   Please provide a valid city.
                 </div>
               </div>
               <div class="col-md-6">
                 <label for="validationCustom04" class="form-label">State</label>
-                <select class="form-select rounded-pill" name="state" id="validationCustom04" required>
+                <select class="form-select rounded-pill" name="state" id="state" required>
                   <option selected disabled value="">Choose...</option>
                   <option value="Beirut">Beirut</option>
                   <option value="Mount Lebanon">Mount Lebanon</option>
@@ -86,9 +88,9 @@ background: radial-gradient(ellipse at center, #BC0101 0%, #910303 51%, #560000 
                   Please select a valid state.
                 </div>
               </div>
-              <div class="col-md-3">
-                <label for="zip1" class="form-label">Zip</label>
-                <input type="text" class="form-control rounded-pill" name="zip" id="zip1" required>
+              <div class="col-md-6">
+                <label for="zip" class="form-label">Zip</label>
+                <input type="text" class="form-control rounded-pill" name="zip" id="zip" required>
                 <div class="invalid-feedback">
                   Please provide a valid zip.
                 </div>
@@ -96,7 +98,7 @@ background: radial-gradient(ellipse at center, #BC0101 0%, #910303 51%, #560000 
               
   <div class="col-md-6">
                 <label for="bookingdatetime" class="form-label">Booking Date and Time</label>
-                <input type="datetime-local" class="form-control rounded-pill" name="bookingdatetime" id="bookingdatetime" value="" required>
+                <input type="datetime-local" class="form-control rounded-pill" name="dat" id="dat" value="" required>
                 <div class="invalid-feedback">
                   Enter Date and Time !
                 </div>
@@ -104,7 +106,7 @@ background: radial-gradient(ellipse at center, #BC0101 0%, #910303 51%, #560000 
             
    <div class="col-md-6">
                 <label for="paymentmethod" class="form-label">Payment Method</label>
-                <select class="form-control rounded-pill" name="bookingdatetime" id="bookingdatetime" value="" required>
+                <select class="form-control rounded-pill" name="payment" id="payment" value="" required>
                 <option value="" disabled selected> Select your payment method</option>
                 
                   <option
@@ -128,9 +130,9 @@ background: radial-gradient(ellipse at center, #BC0101 0%, #910303 51%, #560000 
               </div>            
               
               <label for="validationPassword">Password</label>
-              <input type="password" class="form-control rounded-pill" id="validationPassword" minlength="8" name="password" placeholder="Password" value="" required>
+              <input type="password" class="form-control rounded-pill" id="password" minlength="8" name="password" placeholder="Password" value="" required>
               <label for="cpass">Confirm-Password</label>
-              <input type="password" class="form-control rounded-pill" id="cpass" minlength="8" name="cpassword" placeholder="Password" value="" required>
+              <input type="password" class="form-control rounded-pill" id="password2" minlength="8" name="password2" placeholder="Password" value="" required>
               <div class="col-12">
                 <div class="form-check">
                   <input class="form-check-input rounded-pill" type="checkbox" value="" id="invalidCheck" required>
