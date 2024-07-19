@@ -69,10 +69,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
         $errors[] = "Password is required.";
     }
 
-    $sql_add_query = "insert into Booking values ('$firstname' , '$lastname' , '$username' , '$email' , '$phone' , 
-    '$dob' , '$dat' , '$payment' , '$password')" ;
-    if (mysqli_query($con,$sql_add_query)===FALSE)
-    die("could not add data");
+    $query="update Booking set First Name = '$firstname' , Last Name = '$lastname' ,
+     Username='$username' , Email='$email' , Mobile Number='$phone' , Date of Birth='$dob' ,
+     Booking Date And Time='$dat' , Payment Method='$payment' , Password='$password' ";
 
-   ?> 
-
+     $result=mysqli_query($con,$query);
+     if($result)
+     header("location: page2.php"); 
+    ?>
