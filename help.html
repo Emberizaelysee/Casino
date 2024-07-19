@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- focus-visible:outline-selected focus-visible:rounded-0125 focus-visible:outline focus-visible:outline-2 focus-visible:-outline-offset-2 -->
+  <head>
+    <!-- Meta Data -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rye&display=swap"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Titre & Logo -->
+    <title>Casino - Help</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/logo/logo103.png" />
+
+    <!-- CSS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <style>
+      .fixedNav {
+        position: static !important;
+      }
+      @media screen and (min-width: 768px) {
+        .fixedNav {
+          position: fixed !important;
+          top: 0 !important;
+          right: 0 !important;
+          left: 0 !important;
+          z-index: 1030;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-dark">
+    <header class="fixedNav">
+      <nav
+        class="nav bg-dark rye-regular h-64 text-white text-decoration-none d-md-flex d-sm-block justify-content-between"
+        style="width: 100%"
+      >
+        <div
+          class="bg-dark d-md-flex d-sm-block justify-content-between"
+          style="width: 100%"
+        >
+          <div
+            class="nav-item bg-dark rye-regular text-white text-decoration-none d-flex align-items-center justify-content-center"
+          >
+            <a
+              href="./index.html"
+              class="bg-dark rye-regular text-white text-decoration-none d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="./assets/img/logo/logo103.png"
+                alt="Casino Logo"
+                class="rounded-circle img-fluid ms-4"
+                style="height: 48px; width: 48px"
+              />
+              <span
+                class="text-white text-center"
+                style="font-size: 32px !important"
+                >&nbsp;Casino</span
+              >
+            </a>
+          </div>
+          <br />
+          <div
+            class="d-md-flex flex-column flex-wrap flex-md-row flex-md-nowrap"
+          >
+            <ul
+              class="nav nav-pills d-md-flex flex-column flex-wrap flex-md-row flex-md-nowrap justify-content-around align-items-center"
+            >
+              <li class="nav-item">
+                <a
+                  href="./index.html#Games"
+                  class="bg-dark rye-regular text-white mx-3 mt-3 link-light link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                  >Games</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="./index.html#Resto"
+                  class="bg-dark rye-regular text-white mx-3 link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                  >Restaurants</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="./index.html#Events"
+                  class="bg-dark rye-regular text-white mx-3 link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                  >Events</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle bg-dark rye-regular text-white text-decoration-none mx-3"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >More</a
+                >
+                <ul class="dropdown-menu bg-dark" style="border: none">
+                  <li>
+                    <a
+                      href="./help.html#Contact"
+                      class="dropdown-item rye-regular text-white linkEffect"
+                      >Contact us for help</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="./help.html#JoinUs"
+                      class="dropdown-item rye-regular text-white linkEffect"
+                      >Join our team</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="./AboutUs.html#policy"
+                      class="dropdown-item rye-regular text-white linkEffect"
+                      >Our policy</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <br />
+          <div
+            class="nav-item bg-dark rye-regular text-white text-decoration-none d-flex align-items-center justify-content-center me-4"
+          >
+            <div class="connect" id="nav-not-connected">
+              <a
+                href="./login.html"
+                class="bg-dark rye-regular text-white d-flex align-items-center justify-content-center link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+              >
+                <i class="fa fa-sign-in"></i> &nbsp;Log in</a
+              >
+            </div>
+            <div class="connect" id="nav-connected">
+              <a
+                class="dropdown-toggle bg-dark rye-regular text-white text-decoration-none mx-3 d-flex align-items-center justify-content-center"
+                data-bs-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-expanded="false"
+                style="display: inline-flex; text-decoration: none"
+              >
+                <span
+                  id="username"
+                  class="text-white text-center me-2"
+                  style="font-size: 20px"
+                ></span>
+                <img
+                  id="avatar"
+                  src=""
+                  alt="User Avatar"
+                  class="rounded-circle img-fluid me-2"
+                  style="height: 48px; width: 48px"
+                />
+              </a>
+              <ul class="dropdown-menu bg-dark" style="border: none">
+                <li>
+                  <a
+                    class="dropdown-item rye-regular text-white linkEffect"
+                    href="./assets/php/profile.php"
+                    >Profile</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item rye-regular text-white linkEffect"
+                    href="./assets/php/logout.php"
+                    >Log out</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          function checkLoginStatus() {
+            return fetch("./assets/php/session_check.php").then((response) =>
+              response.json()
+            );
+          }
+
+          checkLoginStatus()
+            .then((response) => {
+              if (response.success) {
+                if (response.logged_in) {
+                  document.getElementById("nav-not-connected").style.display =
+                    "none";
+                  document.getElementById("nav-connected").style.display =
+                    "flex";
+                  document.getElementById("username").textContent =
+                    response.username;
+                  document.getElementById("avatar").src = response.avatar;
+                } else {
+                  document.getElementById("nav-not-connected").style.display =
+                    "flex";
+                  document.getElementById("nav-connected").style.display =
+                    "none";
+                }
+              } else {
+                console.error("Error: " + response.message);
+              }
+            })
+            .catch((error) => {
+              console.error("Error checking login status:", error);
+            });
+        });
+      </script>
+    </header>
+    <br />
+    <main>
+      <section
+        style="
+          background-image: url(./assets/img/wildView1.jpg);
+          background-repeat: no-repeat, repeat;
+          background-size: cover;
+        "
+      >
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-12 col-md-6 mt-1 ms-3" style="padding: 0">
+              <!-- START Contact -->
+              <div
+                id="Contact"
+                class="container rye-regular p-4"
+                style="
+                  margin-right: 2%;
+                  background-color: whitesmoke;
+                  border-radius: 25px;
+                  box-shadow: 0px 0px 20px #000000;
+                "
+              >
+                <div class="mt-2">
+                  <h2>Contact Us</h2>
+                  <br />
+                  <p>
+                    Have a question or concern? Need assistance? We're here to
+                    help!
+                  </p>
+                  <form
+                    id="contactForm"
+                    method="post"
+                    action="./assets/php/contact.php"
+                  >
+                    <div class="form-floating">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="contact_name"
+                        name="contact_name"
+                        placeholder="Enter your name"
+                        style="height: 1rem !important"
+                        required
+                      />
+                      <label
+                        for="contact_name"
+                        style="color: #000000bb; font-size: medium"
+                        >Enter your name</label
+                      >
+                    </div>
+                    <br />
+                    <div class="form-floating">
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="contact_email"
+                        name="contact_email"
+                        placeholder="example@example.com"
+                        style="height: 1rem !important"
+                        required
+                      />
+                      <label
+                        for="contact_email"
+                        style="color: #000000bb; font-size: medium"
+                        >Enter your email</label
+                      >
+                    </div>
+                    <div id="emailError" style="color: red; display: none">
+                      Please enter a valid email address.
+                    </div>
+                    <br />
+                    <div class="form-floating">
+                      <textarea
+                        class="form-control"
+                        id="contact_message"
+                        name="contact_message"
+                        placeholder="Enter your message"
+                        style="height: 9rem !important"
+                        required
+                      ></textarea>
+                      <label
+                        for="contact_message"
+                        style="color: #000000bb; font-size: medium"
+                        >Enter your message</label
+                      >
+                    </div>
+                    <br />
+                    <div id="formError" style="color: red; display: none">
+                      Please fill in all fields.
+                    </div>
+                    <button
+                      class="btn btn-outline-dark w-50 py-2"
+                      type="submit"
+                      value="Submit"
+                      style="margin: 0 25% !important"
+                    >
+                      Send Message
+                    </button>
+                  </form>
+                </div>
+              </div>
+              <!-- END Contact -->
+            </div>
+            <div class="col-12 col-md-6 mt-1" style="padding: 0"></div>
+            <script>
+              document
+                .getElementById("contactForm")
+                .addEventListener("submit", function (e) {
+                  e.preventDefault();
+
+                  var name = document
+                    .getElementById("contact_name")
+                    .value.trim();
+                  var email = document
+                    .getElementById("contact_email")
+                    .value.trim();
+                  var message = document
+                    .getElementById("contact_message")
+                    .value.trim();
+                  var emailError = document.getElementById("emailError");
+                  var formError = document.getElementById("formError");
+                  var emailRegex =
+                    /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
+                  emailError.style.display = "none"; // Cacher le message d'erreur de l'email par défaut
+                  formError.style.display = "none"; // Cacher le message d'erreur du formulaire par défaut
+
+                  if (name === "" || email === "" || message === "") {
+                    formError.style.display = "block"; // Afficher le message d'erreur du formulaire
+                    return;
+                  }
+
+                  if (!emailRegex.test(email)) {
+                    emailError.style.display = "block"; // Afficher le message d'erreur de l'email
+                    return;
+                  }
+
+                  var formData = new FormData(this);
+
+                  fetch("./assets/php/contact.php", {
+                    method: "POST",
+                    body: formData,
+                  })
+                    .then((response) => response.text())
+                    .then((data) => {
+                      alert(data);
+                      if (data.includes("Message sent successfully")) {
+                        document.getElementById("contactForm").reset(); // Réinitialiser le formulaire
+                      }
+                    })
+                    .catch((error) => {
+                      console.error("Error:", error);
+                    });
+                });
+            </script>
+          </div>
+        </div>
+      </section>
+      <br />
+      <section class="container vh-100" style="position: relative">
+        <!-- START FAQ -->
+        <div
+          style="
+            min-width: 100%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          "
+        >
+          <div
+            id="FAQ"
+            class="rye-regular mt-2"
+            style="background-color: whitesmoke !important"
+          >
+            <div class="mt-2">
+              <h2>&nbsp;Frequently Asked Questions (FAQ)</h2>
+              <br />
+              <div class="wrapper">
+                <div class="item item1">
+                  <div class="px-4">
+                    <h5 class="item-head">
+                      <br />What types of games are available at the casino, and
+                      how do I book a session?
+                    </h5>
+                    <p class="item-body">
+                      - The casino offers a wide range of games, including
+                      slots, poker, blackjack, and roulette. To book a session,
+                      visit the "Games" section, choose your preferred game, and
+                      reserve a spot for your desired time.
+                    </p>
+                  </div>
+                </div>
+                <div class="item item2">
+                  <div class="px-4">
+                    <h5 class="item-head">
+                      <br />
+                      Are there any age restrictions for entering the casino and
+                      booking tickets?
+                    </h5>
+                    <p class="item-body">
+                      - Yes, all guests must be at least 18 years old to enter
+                      the casino and book tickets for events, restaurants, or
+                      games. Valid ID proof is required for age verification.
+                    </p>
+                  </div>
+                </div>
+                <div class="item item3">
+                  <div class="px-4">
+                    <h5 class="item-head">
+                      <br />What is the cancellation policy for booked tickets
+                      and reservations?
+                    </h5>
+                    <p class="item-body">
+                      - Our cancellation policy varies by service. Please refer
+                      to our detailed cancellation policy on the website for
+                      more information.
+                    </p>
+                  </div>
+                </div>
+                <div class="item item4">
+                  <div class="px-4">
+                    <h5 class="item-head">
+                      <br />Can I make reservations for the casino's restaurants
+                      online?
+                    </h5>
+                    <p class="item-body">
+                      - Yes, restaurant reservations can be made online through
+                      the "Restaurant" section. Simply choose the restaurant,
+                      select the date and time, and provide the required
+                      information to confirm your reservation.
+                    </p>
+                  </div>
+                </div>
+                <div class="item item5">
+                  <div class="px-4">
+                    <h5 class="item-head">
+                      <br />How do I book tickets for events at the casino?
+                    </h5>
+                    <p class="item-body">
+                      - Users can book tickets by visiting the "Events" section
+                      on our website, selecting the desired event, and following
+                      the prompts to complete the booking process. Payment can
+                      be made online using various payment methods.
+                    </p>
+                  </div>
+                </div>
+                <div class="item item6">
+                  <div class="px-4">
+                    <h5 class="item-head"><br />Lorem ipsum dolor sit amet?</h5>
+                    <p class="item-body">
+                      - Lorem ipsum dolor sit amet, consectetur adipisicing
+                      elit. Consectetur, perferendis voluptatibus. Repellat
+                      facere ad quia libero, distinctio unde voluptates dolor
+                      iusto iure? Veritatis a inventore perspiciatis,
+                      repudiandae quisquam eius. Porro.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END FAQ -->
+      </section>
+      <br />
+      <section
+        style="
+          background-image: url(./assets/img/wildView.jpg);
+          background-repeat: no-repeat, repeat;
+          background-size: cover;
+        "
+      >
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-12 col-md-6 mt-1" style="padding: 0"></div>
+            <div class="col-12 col-md-6 mt-1 me-3" style="padding: 0">
+              <div
+                id="JoinUs"
+                class="container rye-regular p-4"
+                style="
+                  margin-left: 0;
+                  background-color: whitesmoke;
+                  border-radius: 25px;
+                  box-shadow: 0px 0px 20px #000000;
+                "
+              >
+                <div class="mt-2">
+                  <h2>Join our Team</h2>
+                  <br />
+                  <p>Want to join us ? We're hiring, apply now!</p>
+                  <div class="container h-100">
+                    <div
+                      class="row d-flex justify-content-center align-items-center h-100"
+                    >
+                      <form
+                        id="hiringForm"
+                        method="post"
+                        enctype="multipart/form-data"
+                        action="./assets/php/hiring.php"
+                      >
+                        <div class="form-floating">
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="hiring_name"
+                            name="hiring_name"
+                            placeholder="Enter your full name"
+                            required
+                          />
+                          <label
+                            for="hiring_name"
+                            style="color: #000000bb; font-size: medium"
+                            >Enter your full name</label
+                          >
+                          <small
+                            id="hiringfullNameError"
+                            class="form-text text-danger"
+                          ></small>
+                        </div>
+                        <br />
+                        <div class="form-floating">
+                          <input
+                            type="email"
+                            class="form-control"
+                            id="hiring_email"
+                            name="hiring_email"
+                            placeholder="example@example.com"
+                            required
+                          />
+                          <label
+                            for="hiring_email"
+                            style="color: #000000bb; font-size: medium"
+                            >Enter your email</label
+                          >
+                          <small
+                            id="hiringemailError"
+                            class="form-text text-danger"
+                          ></small>
+                        </div>
+                        <br />
+                        <div class="form-floating">
+                          <textarea
+                            class="form-control"
+                            id="hiring_details"
+                            name="hiring_details"
+                            placeholder="Message sent to the employer"
+                            required
+                          ></textarea>
+                          <label
+                            for="hiring_details"
+                            style="color: #000000bb; font-size: medium"
+                            >Details</label
+                          >
+                          <small
+                            id="hiringdetailsError"
+                            class="form-text text-danger"
+                          ></small>
+                        </div>
+                        <br />
+                        <div class="form-group">
+                          <label
+                            for="hiring_cv"
+                            class="form-label"
+                            style="color: #000000bb; font-size: medium"
+                            >Upload CV</label
+                          >
+                          <input
+                            class="form-control form-control-sm"
+                            name="hiring_cv"
+                            id="hiring_cv"
+                            type="file"
+                            accept=".pdf,.doc,.docx"
+                            required
+                          />
+                          <!--form-control-file-->
+
+                          <small class="form-text text-muted"
+                            >Max file size 50 MB</small
+                          >
+                          <small
+                            id="hiringcvError"
+                            class="form-text text-danger"
+                          ></small>
+                        </div>
+                        <br />
+                        <button
+                          class="btn btn-outline-dark"
+                          type="submit"
+                          value="Submit"
+                        >
+                          Send application
+                        </button>
+                        <small
+                          id="successMessage"
+                          class="form-text text-success"
+                        ></small>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <script>
+              document;
+              document
+                .getElementById("hiringForm")
+                .addEventListener("submit", function (event) {
+                  event.preventDefault();
+
+                  var name = document
+                    .getElementById("hiring_name")
+                    .value.trim();
+                  var email = document
+                    .getElementById("hiring_email")
+                    .value.trim();
+                  var message = document
+                    .getElementById("hiring_details")
+                    .value.trim();
+                  var cv = document.getElementById("hiring_cv").files[0];
+
+                  var emailError = document.getElementById("hiringemailError");
+                  var formError = document.getElementById("hiringformError");
+                  var emailRegex =
+                    /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
+                  // Reset error messages
+                  document.getElementById("hiringfullNameError").textContent =
+                    "";
+                  document.getElementById("hiringemailError").textContent = "";
+                  document.getElementById("hiringdetailsError").textContent =
+                    "";
+                  document.getElementById("hiringcvError").textContent = "";
+                  document.getElementById("successMessage").textContent = "";
+
+                  var hasError = false; // Declare hasError variable
+
+                  if (name === "") {
+                    document.getElementById("hiringfullNameError").textContent =
+                      "Name is required.";
+                    hasError = true;
+                  }
+
+                  if (email === "") {
+                    document.getElementById("hiringemailError").textContent =
+                      "Email is required.";
+                    hasError = true;
+                  } else if (!emailRegex.test(email)) {
+                    document.getElementById("hiringemailError").textContent =
+                      "Please enter a valid email address.";
+                    hasError = true;
+                  }
+
+                  if (message === "") {
+                    document.getElementById("hiringdetailsError").textContent =
+                      "Details are required.";
+                    hasError = true;
+                  }
+                  // CV validation
+                  if (!cv) {
+                    document.getElementById("hiringcvError").textContent =
+                      "CV is required.";
+                    hasError = true;
+                  } else if (cv.size > 50 * 1024 * 1024) {
+                    document.getElementById("hiringcvError").textContent =
+                      "CV must be less than 50 MB.";
+                    hasError = true;
+                  }
+
+                  // If there are errors, do not submit the form
+                  if (hasError) return;
+
+                  var formData = new FormData(this);
+
+                  // Submit the form using fetch
+                  fetch("./assets/php/hiring.php", {
+                    method: "POST",
+                    body: formData,
+                  })
+                    .then((response) => response.json()) // Parse the JSON response
+                    .then((data) => {
+                      if (data.success) {
+                        document.getElementById("successMessage").textContent =
+                          "Application sent successfully!";
+                        document.getElementById("hiringForm").reset();
+                      } else {
+                        for (const key in data.errors) {
+                          document.getElementById(key + "Error").textContent =
+                            data.errors[key];
+                        }
+                      }
+                    })
+                    .catch((error) => {
+                      console.error("Error:", error);
+                    });
+                });
+            </script>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-dark rye-regular text-white container-fluid py-4">
+      <div class="container text-center">
+        <div
+          class="d-flex justify-content-around align-items-center flex-column flex-md-row fw-normal"
+        >
+          <div class="d-flex flex-column">
+            <a
+              href="./index.html"
+              class="text-white px-5 footerlink link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+              >&middot;<span class="px-1">&nbsp;Home&nbsp;</span>&middot;</a
+            >
+            <a
+              href="./index.html#Games"
+              class="text-white px-5 footerlink link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+              >&middot;<span class="px-1">&nbsp;Games&nbsp;</span>&middot;</a
+            >
+          </div>
+          <div class="d-flex flex-column">
+            <a
+              href="./booking.html"
+              class="text-white px-5 footerlink link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+              >&middot;<span class="px-1">&nbsp;Book your ticket&nbsp;</span
+              >&middot;</a
+            >
+            <a
+              href="./index.html#Events"
+              class="text-white px-5 footerlink link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+              >&middot;<span class="px-1">&nbsp;Events&nbsp;</span>&middot;</a
+            >
+          </div>
+          <div class="d-flex flex-column">
+            <a
+              href="./help.html#JoinUs"
+              class="text-white px-5 footerlink link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+              >&middot;<span class="px-1">&nbsp;Hiring&nbsp;</span>&middot;</a
+            ><a
+              href="./index.html#Resto"
+              class="text-white px-5 footerlink link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+              >&middot;<span class="px-1">&nbsp;Dinners&nbsp;</span>&middot;</a
+            >
+          </div>
+        </div>
+        <br />
+        <hr />
+        <br />
+        <section id="cta" class="container text-center">
+          <div class="row">
+            <!-- Call to Action -->
+            <div class="col-5" style="margin: auto 0px">
+              <div class="px-4">
+                <h4 class="h5">Book your tickets on your phone Today !</h4>
+                <br />
+                <button
+                  type="button"
+                  class="btn btn-md btn-dark download-button"
+                >
+                  <i class="fab fa-apple"></i> Download
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-md btn-light download-button"
+                >
+                  <i class="fab fa-google-play"></i> Download
+                </button>
+              </div>
+            </div>
+            <div class="col-3" id="locate">
+              <h4 class="h5" style="text-align: start !important">
+                <i class="fa-solid fa-location-dot"></i>&nbsp;Our Location
+              </h4>
+              <div class="d-flex">
+                <div
+                  style="
+                    align-content: flex-start;
+                    text-align: start !important;
+                    margin: auto;
+                    padding: auto;
+                  "
+                >
+                  <p>123 Casino Street,</p>
+                  <p>Las Vegas, NV 12345,</p>
+                  <p>United States</p>
+                </div>
+              </div>
+            </div>
+            <!-- Location -->
+            <div class="col-4">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18226.764954237453!2d-115.41360279102418!3d36.14057520648917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80beb782a4f57dd1%3A0x3accd5e6d5b379a3!2sLas%20Vegas%2C%20Nevada%2C%20%C3%89tats-Unis!5e0!3m2!1sfr!2slb!4v1716424253874!5m2!1sfr!2slb"
+                width="100%"
+                height="250"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </section>
+
+        <br />
+        <hr />
+        <div style="font-size: 14px">
+          <p>&copy; 2024 Casino. All rights reserved.</p>
+          <a
+            href="./AboutUs.html#policy"
+            class="text-white px-4 link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+            style="font-size: 12px"
+            >&middot;<span class="px-1">&nbsp;Term of Use&nbsp;</span
+            >&middot;</a
+          >
+          <a
+            href="./help.html#Contact"
+            class="text-white px-4 link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+            style="font-size: 12px !important"
+            >&middot;<span class="px-1">&nbsp;Contact Us&nbsp;</span>&middot;</a
+          >
+        </div>
+        <div
+          style="display: flex; align-content: end; justify-content: flex-end"
+        >
+          <a
+            href="facebook.com"
+            id="sociallink"
+            class="text-decoration-none text-light pe-2"
+            ><i class="fa-brands fa-meta" style="color: #ffffff"></i>
+          </a>
+          <a
+            href="twitter.com"
+            id="sociallink"
+            class="text-decoration-none text-light pe-2"
+            ><i class="fa-brands fa-twitter" style="color: #ffffff"></i
+          ></a>
+          <a
+            href="instagram.com"
+            id="sociallink"
+            class="text-decoration-none text-light pe-2"
+            ><i class="fa-brands fa-instagram" style="color: #ffffff"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

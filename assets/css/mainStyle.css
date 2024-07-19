@@ -1,0 +1,93 @@
+/* Font */
+.rye-regular {
+  font-family: "Rye", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+/* General Style */
+.h-64 {
+  min-height: 64px;
+  max-height: auto;
+}
+.mainCardsImages {
+  height: 200px !important;
+  width: 100% !important;
+  border-radius: 25px !important;
+}
+
+.card {
+  border: transparent;
+  border-radius: 25px !important;
+  background-color: whitesmoke;
+  box-shadow: 0 0 10px 10px rgba(245, 245, 245, 0.75);
+}
+.card-btn,
+.card-title,
+.card-text {
+  align-items: center !important;
+  text-align: center !important;
+}
+.card-btn {
+  display: flex;
+  margin: auto;
+  width: 40%;
+  justify-content: center !important;
+}
+
+/* Body */
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* Nav */
+.linkEffect:hover {
+  color: black !important;
+  background-color: white;
+}
+
+#nav-connected {
+  display: none;
+}
+
+.fixedNav {
+  position: static !important;
+}
+@media screen and (min-width: 768px) {
+  .fixedNav {
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    left: 0 !important;
+    z-index: 1030;
+    width: 100%;
+  }
+}
+
+/* Carousel */
+.carouselText .carouselP {
+  color: #eee !important;
+  background-color: rgba(0, 0, 0, 0.16);
+}
+
+/* Sticky Arrow */
+#sticky {
+  margin: 24px;
+  height: 32px;
+  width: 32px;
+  border-radius: 30%;
+  position: sticky;
+  bottom: 10px;
+  text-align: center;
+}
+#stickyArrow {
+  margin: 0;
+  padding: 7px;
+  height: 32px;
+  width: 32px;
+}
+
+/* Footer */
+.footerlink {
+  font-size: larger;
+}
